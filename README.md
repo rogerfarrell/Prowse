@@ -1,7 +1,8 @@
 # Prowse
 
-This is a lightweight function which uses Netrw and Pandoc to open
-webpages as markdown.
+Prowse is a lightweight plugin for viewing plain HTML webpages as
+markdown. It makes use of Netrw to grab the HTML and Pandoc to convert
+it to markdown.
 
 ## Installation
 
