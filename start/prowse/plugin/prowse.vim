@@ -15,3 +15,4 @@ function! ProwseFollow() abort
 endfunction
 
 nnoremap <Leader>gf :call ProwseFollow()<CR>
+vnoremap <Leader>gf :call ProwseFollow()<CR>
