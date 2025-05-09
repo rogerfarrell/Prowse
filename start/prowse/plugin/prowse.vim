@@ -2,7 +2,7 @@ function! Prowse(url) abort
   silent! execute 'edit!' a:url
   redraw!
   if &filetype !=# 'markdown'
-    execute '%!pandoc --from=html --to=markdown_strict-raw_html --standalone --toc=true'
+    execute '%!pandoc --from=html --to=markdown_strict-raw_html --standalone --toc=true --sandbox=true'
     setfiletype markdown
   endif
 endfunction
