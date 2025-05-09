@@ -11,7 +11,8 @@ Clone this repo into `~.vim/pack/` and add `set loadplugins` to your
 
 ## How to use
 
-You can call it with either of the following commands.
+To view a webpage as markdown, open it with one of the following
+commands.
 
 ```vim
 :Prowse https://example.com/
@@ -20,3 +21,6 @@ You can call it with either of the following commands.
 ```vim
 :Prs https://example.com/
 ```
+
+Prowse also supports following links. From normal or visual mode, type
+`<Leader>gf`.
